@@ -1,5 +1,4 @@
 import {AiEditor} from "./core/AiEditor.ts";
-import {config} from "./xinghuo.ts";
 
 // @ts-ignore
 window.aiEditor = new AiEditor({
@@ -15,7 +14,9 @@ window.aiEditor = new AiEditor({
     ai: {
         models: {
             spark: {
-                ...config
+                appId: "4cb9059c",
+                apiKey: "804ebf467e921083268a4f3dbc7744fc",
+                apiSecret: "YWZhMGNiZmY1ZjE2ZWIxYTc3ZDg4MDVh"
             }
         },
         // bubblePanelEnable:false,
